@@ -8,7 +8,8 @@ This vulnerability is due to the fact that the Kubernetes API Server and kubectl
 
 ## Kubernetes Repo with my PoC Code
 
-You can download my forked version of Kubernetes and switch to my branch to build the exploit `kubelet` binary
+You can download my forked version of Kubernetes and switch to my branch to build the exploit `kubelet` binary.  
+This branch is based on the `v1.15.9` tag.  
 
 ```
 git clone -b CVE-2020-8559 --single-branch git@github.com:tdwyer/kubernetes.git
